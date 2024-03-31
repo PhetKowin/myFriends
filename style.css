@@ -1,0 +1,49 @@
+button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color: #02905c;
+}
+
+.center{
+    text-align: center;
+}
+
+.reset {
+    background-color: #ff0202;
+}
+
+.reset:hover {
+    background-color: #db0000;
+}
+
+.border {
+    margin: 1rem 18rem;
+    padding-bottom: 2rem;
+    border: 1px solid black;
+}
+
+#numOfFriend {
+    font-size: large;
+}
+
+input[type=text], input[type=number] {
+    width: 10rem;
+    height: 2rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.age{
+    margin-left: 2rem;
+}
