@@ -41,7 +41,7 @@ function lowestAge() {
         if (i == 1) {
             lowestAge = age;
         }
-        else if (lowestAge >= age) {
+        else if (lowestAge >= Number(age)) {
             lowestAge = age;
         }
     }
@@ -65,7 +65,7 @@ function highestAge() {
         if (i == 1) {
             highestAge = age;
         }
-        else if (highestAge <= age) {
+        else if (highestAge <= Number(age)) {
             highestAge = age;
         }
     }
